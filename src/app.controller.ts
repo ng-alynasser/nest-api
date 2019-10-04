@@ -6,9 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(): {name: string} {
-    return {
-      name: 'NestJS API'
-    };
+  getHello(): string{
+    return 'Nest.js API'
   }
 }
