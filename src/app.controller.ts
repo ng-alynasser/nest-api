@@ -6,8 +6,6 @@ export class AppController {
 
   @Get()
   greeting() {
-    return {
-      name: 'Aly Nasser'
-    }
+    return `<h1>Nest.js API</h1`;
   }
 }
